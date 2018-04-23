@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Compile Include="Common\SingleObjectViewModel.cs" />
+    <Compile Include="Common\Utils\ExpressionHelper.cs" />
+    <Compile Include="Common\Utils\DbExtensions.cs" />
+    <Compile Include="Common\DataModel\IReadOnlyRepository.cs" />
+    <Compile Include="Common\DataModel\IRepository.cs" />
+    <Compile Include="Common\DataModel\IUnitOfWork.cs" />
+    <Compile Include="Common\DataModel\DesignTime\DesignTimeReadOnlyRepository.cs" />
+    <Compile Include="Common\DataModel\DesignTime\DesignTimeRepository.cs" />
+    <Compile Include="Common\DataModel\DesignTime\DesignTimeUnitOfWork.cs" />
+    <Compile Include="Common\DataModel\DesignTime\DesignTimeInstantFeedbackSource.cs" />
+    <Compile Include="Common\DataModel\DesignTime\DesignTimeUnitOfWorkFactory.cs" />
+    <Compile Include="Common\DataModel\UnitOfWorkBase.cs" />
+    <Compile Include="Common\DataModel\DbExceptions.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\DbExceptionsConverter.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\DbReadOnlyRepository.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\DbRepository.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\DbUnitOfWork.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\InstantFeedbackSource.cs" />
+    <Compile Include="Common\DataModel\EntityFramework\DbUnitOfWorkFactory.cs" />
+    <Compile Include="Common\DataModel\EntityState.cs" />
+    <Compile Include="DepartmentContextDataModel\UnitOfWorkSource.cs" />
+    <EmbeddedResource Include="Common\CommonResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Common\CommonResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonResources.resx</DependentUpon>
+    </Compile>
+    <None Include="Common\LayoutSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>LayoutSettings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Common\LayoutSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LayoutSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentContextDataModel\IDepartmentContextUnitOfWork.cs" />
+    <Compile Include="DepartmentContextDataModel\DepartmentContextUnitOfWork.cs" />
+    <Compile Include="DepartmentContextDataModel\DesignTimeDepartmentContextUnitOfWork.cs" />
+    <Reference Include="DevExpress.Xpf.Core.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Compile Include="Common\ViewModel\ISingleObjectViewModel.cs" />
+    <Compile Include="Common\ViewModel\DocumentManagerServiceExtensions.cs" />
+    <Compile Include="Common\ViewModel\SingleObjectViewModel.cs" />
+    <Compile Include="Common\ViewModel\ReadOnlyCollectionViewModel.cs" />
+    <Compile Include="Common\ViewModel\CollectionViewModel.cs" />
+    <Compile Include="Common\ViewModel\AddRemoveDetailEntitiesViewModel.cs" />
+    <Compile Include="Common\ViewModel\AddRemoveJunctionDetailEntitiesViewModel.cs" />
+    <Compile Include="Common\ViewModel\InstantFeedbackCollectionViewModel.cs" />
+    <Compile Include="Common\ViewModel\PeekCollectionViewModel.cs" />
+    <Compile Include="Common\ViewModel\Messages.cs" />
+    <Compile Include="Common\ViewModel\EntitiesViewModel.cs" />
+    <Compile Include="Common\ViewModel\LookUpEntitiesViewModel.cs" />
+    <Compile Include="Common\ViewModel\DocumentsViewModel.cs" />
+    <Compile Include="Common\ViewModel\PersistentLayoutHelper.cs" />
+    <Reference Include="DevExpress.Printing.v15.2.Core">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Compile Include="ViewModels\Department\DepartmentCollectionViewModel.cs" />
+    <Compile Include="ViewModels\Department\DepartmentViewModel.cs" />
+    <Reference Include="WindowsBase">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="UIAutomationType">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v15.2.Core">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v15.2.Core">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.NavBar.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Controls.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.ReportDesigner.v15.2">
+      <Private>False</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Images.v15.2">
+      <Private>True</Private>
+      <HintPath></HintPath>
+    </Reference>
+    <Page Include="Views\Department\DepartmentCollectionView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Views\Department\DepartmentCollectionView.xaml.cs">
+      <DependentUpon>DepartmentCollectionView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\Department\DepartmentView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Views\Department\DepartmentView.xaml.cs">
+      <DependentUpon>DepartmentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\DepartmentContextViewModel.cs" />
+    <Page Include="Views\DepartmentContextView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Views\DepartmentContextView.xaml.cs">
+      <DependentUpon>DepartmentContextView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{135FA08E-B405-4908-88A6-134111242AC9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Scaffolding.ValidationErrors</RootNamespace>
+    <AssemblyName>Scaffolding.ValidationErrors</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName></SccProjectName>
+    <SccLocalPath></SccLocalPath>
+    <SccAuxPath></SccAuxPath>
+    <SccProvider></SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Department.cs" />
+    <Compile Include="Data\DepartmentContext.cs" />
+    <Compile Include="Data\DepartmentContextInitializer .cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Common\LayoutSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>LayoutSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
