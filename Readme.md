@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [SingleObjectViewModel.Extensions.cs](./CS/Scaffolding.ValidationErrors/Common/ViewModel/SingleObjectViewModel.Extensions.cs) (VB: [SingleObjectViewModel.Extensions.vb](./VB/Scaffolding.ValidationErrors/Common/ViewModel/SingleObjectViewModel.Extensions.vb))
+* [DepartmentCollectionView.xaml](./CS/Scaffolding.ValidationErrors/Views/DepartmentCollectionView.xaml) (VB: [DepartmentCollectionView.xaml](./VB/Scaffolding.ValidationErrors/Views/DepartmentCollectionView.xaml))
+<!-- default file list end -->
 # Scaffolding Wizards - How to show validation errors when IDataErrorInfo is used
 
 
