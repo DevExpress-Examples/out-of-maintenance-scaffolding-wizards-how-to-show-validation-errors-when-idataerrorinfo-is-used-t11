@@ -33,16 +33,16 @@
 * [IDepartmentContextUnitOfWork.cs](./CS/Scaffolding.ValidationErrors/DepartmentContextDataModel/IDepartmentContextUnitOfWork.cs) (VB: [IDepartmentContextUnitOfWork.vb](./VB/Scaffolding.ValidationErrors/DepartmentContextDataModel/IDepartmentContextUnitOfWork.vb))
 * [UnitOfWorkSource.cs](./CS/Scaffolding.ValidationErrors/DepartmentContextDataModel/UnitOfWorkSource.cs) (VB: [UnitOfWorkSource.vb](./VB/Scaffolding.ValidationErrors/DepartmentContextDataModel/UnitOfWorkSource.vb))
 * [MainWindow.xaml](./CS/Scaffolding.ValidationErrors/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/Scaffolding.ValidationErrors/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/Scaffolding.ValidationErrors/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/Scaffolding.ValidationErrors/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/Scaffolding.ValidationErrors/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/Scaffolding.ValidationErrors/MainWindow.xaml.vb))
 * [DepartmentCollectionViewModel.cs](./CS/Scaffolding.ValidationErrors/ViewModels/Department/DepartmentCollectionViewModel.cs) (VB: [DepartmentCollectionViewModel.vb](./VB/Scaffolding.ValidationErrors/ViewModels/Department/DepartmentCollectionViewModel.vb))
 * [DepartmentViewModel.cs](./CS/Scaffolding.ValidationErrors/ViewModels/Department/DepartmentViewModel.cs) (VB: [DepartmentViewModel.vb](./VB/Scaffolding.ValidationErrors/ViewModels/Department/DepartmentViewModel.vb))
 * [DepartmentContextViewModel.cs](./CS/Scaffolding.ValidationErrors/ViewModels/DepartmentContextViewModel.cs) (VB: [DepartmentContextViewModel.vb](./VB/Scaffolding.ValidationErrors/ViewModels/DepartmentContextViewModel.vb))
 * [DepartmentCollectionView.xaml](./CS/Scaffolding.ValidationErrors/Views/Department/DepartmentCollectionView.xaml) (VB: [DepartmentCollectionView.xaml](./VB/Scaffolding.ValidationErrors/Views/Department/DepartmentCollectionView.xaml))
-* [DepartmentCollectionView.xaml.cs](./CS/Scaffolding.ValidationErrors/Views/Department/DepartmentCollectionView.xaml.cs) (VB: [DepartmentCollectionView.xaml](./VB/Scaffolding.ValidationErrors/Views/Department/DepartmentCollectionView.xaml))
+* [DepartmentCollectionView.xaml.cs](./CS/Scaffolding.ValidationErrors/Views/Department/DepartmentCollectionView.xaml.cs) (VB: [DepartmentCollectionView.xaml.vb](./VB/Scaffolding.ValidationErrors/Views/Department/DepartmentCollectionView.xaml.vb))
 * [DepartmentView.xaml](./CS/Scaffolding.ValidationErrors/Views/Department/DepartmentView.xaml) (VB: [DepartmentView.xaml](./VB/Scaffolding.ValidationErrors/Views/Department/DepartmentView.xaml))
-* [DepartmentView.xaml.cs](./CS/Scaffolding.ValidationErrors/Views/Department/DepartmentView.xaml.cs) (VB: [DepartmentView.xaml](./VB/Scaffolding.ValidationErrors/Views/Department/DepartmentView.xaml))
+* [DepartmentView.xaml.cs](./CS/Scaffolding.ValidationErrors/Views/Department/DepartmentView.xaml.cs) (VB: [DepartmentView.xaml.vb](./VB/Scaffolding.ValidationErrors/Views/Department/DepartmentView.xaml.vb))
 * [DepartmentContextView.xaml](./CS/Scaffolding.ValidationErrors/Views/DepartmentContextView.xaml) (VB: [DepartmentContextView.xaml](./VB/Scaffolding.ValidationErrors/Views/DepartmentContextView.xaml))
-* [DepartmentContextView.xaml.cs](./CS/Scaffolding.ValidationErrors/Views/DepartmentContextView.xaml.cs) (VB: [DepartmentContextView.xaml](./VB/Scaffolding.ValidationErrors/Views/DepartmentContextView.xaml))
+* [DepartmentContextView.xaml.cs](./CS/Scaffolding.ValidationErrors/Views/DepartmentContextView.xaml.cs) (VB: [DepartmentContextView.xaml.vb](./VB/Scaffolding.ValidationErrors/Views/DepartmentContextView.xaml.vb))
 <!-- default file list end -->
 # Scaffolding Wizards - How to show validation errors when IDataErrorInfo is used
 
